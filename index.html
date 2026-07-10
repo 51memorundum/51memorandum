@@ -1,1 +1,192 @@
-<!DOCTYPE html><html lang='ja'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>51memorandum</title><link rel='stylesheet' href='css/style.css'></head><body><header><h1>51memorandum</h1><input id='q' placeholder='検索'></header><nav><button>マニュアル</button><button>作業手順</button><button>治具</button><button>テスト加工</button></nav><main><h2>ようこそ</h2><p>テンプレートです。</p><div id='results'></div></main><script src='js/search.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>51memorandum</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ヘッダー -->
+    <header class="header">
+
+        <div class="logo">
+
+            51memorandum
+
+            <div class="subtitle">
+                Laser Processing Digital Manual
+            </div>
+
+        </div>
+
+        <div class="search-area">
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="キーワード検索">
+
+        </div>
+
+    </header>
+
+
+    <!-- メイン画面 -->
+
+    <div class="container">
+
+        <!-- 左メニュー -->
+
+        <aside class="sidebar">
+
+            <button class="menuButton">
+                📖 マニュアル
+            </button>
+
+            <button class="menuButton">
+                📝 作業手順
+            </button>
+
+            <button class="menuButton">
+                🛠 治具
+            </button>
+
+            <button class="menuButton">
+                🧪 テスト加工
+            </button>
+
+            <hr>
+
+            <button class="menuButton">
+                ⭐ お気に入り
+            </button>
+
+            <button class="menuButton">
+                🆕 更新履歴
+            </button>
+
+            <button class="menuButton">
+                ⚙ 設定
+            </button>
+
+        </aside>
+
+
+        <!-- 右画面 -->
+
+        <main class="content">
+
+            <h2>
+                ようこそ
+            </h2>
+
+            <p>
+
+                51memorandumへようこそ。
+
+            </p>
+
+            <p>
+
+                レーザー加工に関する
+
+            </p>
+
+            <ul>
+
+                <li>マニュアル</li>
+
+                <li>作業手順</li>
+
+                <li>治具</li>
+
+                <li>テスト加工</li>
+
+            </ul>
+
+            <p>
+
+                を一元管理するデジタルマニュアルです。
+
+            </p>
+
+            <hr>
+
+            <h3>
+
+                最新更新
+
+            </h3>
+
+            <div class="card">
+
+                <h4>
+
+                    JPT LARK5A
+
+                </h4>
+
+                <p>
+
+                    FR-4 白発色加工条件を追加
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h4>
+
+                    EZCAD2
+
+                </h4>
+
+                <p>
+
+                    AutoZ 手順を追加
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h4>
+
+                    Universal Laser
+
+                </h4>
+
+                <p>
+
+                    VLS6.75 メンテナンス手順追加
+
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <!-- フッター -->
+
+    <footer>
+
+        © 2026 51memorandum
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
