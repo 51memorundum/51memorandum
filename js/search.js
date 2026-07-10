@@ -1,0 +1,1 @@
+document.getElementById('q').addEventListener('input',e=>document.getElementById('results').textContent='検索: '+e.target.value);
