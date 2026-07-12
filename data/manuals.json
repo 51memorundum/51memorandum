@@ -1,1 +1,29 @@
-[]
+[][
+  {
+    "id": "ezcad2",
+    "title": "EZCAD2",
+    "category": "software",
+    "manufacturer": "JCZ",
+    "pdf": "pdf/software/EZCAD2.pdf",
+    "manual": "manuals/software/ezcad2.html",
+    "tags": ["EZCAD2", "JCZ", "レーザー", "マーキング"]
+  },
+  {
+    "id": "ezcad3",
+    "title": "EZCAD3",
+    "category": "software",
+    "manufacturer": "JCZ",
+    "pdf": "pdf/software/EZCAD3.pdf",
+    "manual": "manuals/software/ezcad3.html",
+    "tags": ["EZCAD3", "JCZ"]
+  },
+  {
+    "id": "lark5a",
+    "title": "JPT LARK5A",
+    "category": "laser",
+    "manufacturer": "JPT",
+    "pdf": "pdf/laser/LARK5A.pdf",
+    "manual": "manuals/laser/lark5a.html",
+    "tags": ["UV", "355nm", "JPT"]
+  }
+]
