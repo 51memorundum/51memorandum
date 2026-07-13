@@ -25,5 +25,14 @@
     "pdf": "pdf/laser/LARK5A.pdf",
     "manual": "manuals/laser/lark5a.html",
     "tags": ["UV", "355nm", "JPT"]
+  },
+    {
+    "id": "lightburn",
+    "title": "LightBurn",
+    "category": "software",
+    "manufacturer": "LightBurn Software",
+    "pdf": "pdf/software/LightBurn.pdf",
+    "manual": "manuals/software/lightburn.html",
+    "tags": ["LightBurn", "レーザー"]
   }
 ]
