@@ -1,4 +1,3 @@
-
 fetch("data/manuals.json")
   .then(response => response.json())
   .then(data => {
@@ -28,4 +27,3 @@ fetch("data/manuals.json")
     console.error(error);
 
   });
-
