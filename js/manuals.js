@@ -28,12 +28,4 @@ fetch("data/manuals.json")
     console.error(error);
 
   });
-{
-  "id": "lightburn",
-  "title": "LightBurn",
-  "category": "software",
-  "manufacturer": "LightBurn Software",
-  "pdf": "pdf/software/LightBurn.pdf",
-  "manual": "manuals/software/lightburn.html",
-  "tags": ["LightBurn", "レーザー"]
-}
+
