@@ -60,27 +60,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (!pages[key]) return;
 
-            content.innerHTML = `
+// マニュアルだけは manuals.js に任せる
+if (key === "📖 マニュアル") {
 
-                <h2>${pages[key].title}</h2>
+    loadManuals();
 
-                <div class="card">
+    return;
+}
 
-                    <p>${pages[key].text}</p>
+content.innerHTML = `
 
-                </div>
+    <h2>${pages[key].title}</h2>
 
-                <div class="card">
+    <div class="card">
 
-                    <h3>準備中</h3>
+        <p>${pages[key].text}</p>
 
-                    <p>
+    </div>
 
-                    このページは今後データベースから自動表示されます。
+    <div class="card">
 
-                    </p>
+        <h3>準備中</h3>
 
-                </div>
+        <p>
+
+        このページは今後データベースから自動表示されます。
+
+        </p>
+
+    </div>
+
+`;
 
             `;
 
