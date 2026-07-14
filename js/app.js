@@ -60,11 +60,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (!pages[key]) return;
 
-// マニュアルだけは manuals.js に任せる
+// マニュアルがクリックされたら一覧を表示
 if (key === "📖 マニュアル") {
-
     loadManuals();
-
     return;
 }
 
