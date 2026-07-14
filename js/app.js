@@ -90,8 +90,7 @@ content.innerHTML = `
 
 `;
 
-            `;
-
+            
         });
 
     });
