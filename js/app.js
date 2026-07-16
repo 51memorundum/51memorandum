@@ -1,131 +1,54 @@
 // ============================================
-// 51memorandum
+// 51DKB Ver.2
 // app.js
-// Ver 1.0
 // ============================================
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-    // -----------------------------
-    // メニュー
-    // -----------------------------
+    const content = document.getElementById("content");
 
-    const menuButtons = document.querySelectorAll(".menuButton");
-    const content = document.querySelector(".content");
+    document.querySelectorAll(".menuButton").forEach(button => {
 
-    const pages = {
+        button.addEventListener("click", () => {
 
-        "📖 マニュアル": {
-            title: "マニュアル",
-            text: "メーカー別のマニュアルを管理します。"
-        },
+            const menu = button.textContent.trim();
 
-        "📝 作業手順": {
-            title: "作業手順",
-            text: "写真付きの作業手順を管理します。"
-        },
+            switch (menu) {
 
-        "🛠 治具": {
-            title: "治具",
-            text: "治具・DXF・STL・Fusion360データを管理します。"
-        },
+                case "📖 マニュアル":
+                    loadManuals();
+                    break;
 
-        "🧪 テスト加工": {
-            title: "テスト加工",
-            text: "加工条件・写真・評価を管理します。"
-        },
+                case "📝 作業手順":
+                    content.innerHTML = `
+                        <h2>📝 作業手順</h2>
+                        <p>ここに作業手順を表示します。</p>
+                    `;
+                    break;
 
-        "⭐ お気に入り": {
-            title: "お気に入り",
-            text: "お気に入りに登録した資料を表示します。"
-        },
+                case "🛠 治具":
+                    content.innerHTML = `
+                        <h2>🛠 治具</h2>
+                        <p>ここに治具データを表示します。</p>
+                    `;
+                    break;
 
-        "🆕 更新履歴": {
-            title: "更新履歴",
-            text: "最近追加・更新した情報を表示します。"
-        },
+                case "🧪 テスト加工":
+                    content.innerHTML = `
+                        <h2>🧪 テスト加工</h2>
+                        <p>ここに加工条件を表示します。</p>
+                    `;
+                    break;
 
-        "⚙ 設定": {
-            title: "設定",
-            text: "今後追加予定です。"
-        }
+                default:
+                    content.innerHTML = `
+                        <h2>51DKB</h2>
+                        <p>左側のメニューを選択してください。</p>
+                    `;
+            }
 
-    };
-
-    menuButtons.forEach(function (button) {
-
-        button.addEventListener("click", function () {
-
-            const key = button.textContent.trim();
-
-            if (!pages[key]) return;
-
-// マニュアルがクリックされたら一覧を表示
-if (key === "📖 マニュアル") {
-    loadManuals();
-    return;
-}
-
-content.innerHTML = `
-
-    <h2>${pages[key].title}</h2>
-
-    <div class="card">
-
-        <p>${pages[key].text}</p>
-
-    </div>
-
-    <div class="card">
-
-        <h3>準備中</h3>
-
-        <p>
-
-        このページは今後データベースから自動表示されます。
-
-        </p>
-
-    </div>
-
-`;
-
-            
         });
 
     });
-
-
-    // -----------------------------
-    // 検索
-    // -----------------------------
-
-    const searchBox = document.getElementById("searchBox");
-
-    if (searchBox) {
-
-        searchBox.addEventListener("keyup", function () {
-
-            const keyword = searchBox.value.toLowerCase();
-
-            menuButtons.forEach(function (button) {
-
-                const text = button.textContent.toLowerCase();
-
-                if (text.indexOf(keyword) !== -1) {
-
-                    button.style.display = "block";
-
-                } else {
-
-                    button.style.display = "none";
-
-                }
-
-            });
-
-        });
-
-    }
 
 });
