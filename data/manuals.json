@@ -1,4 +1,15 @@
-git log --oneline -5    "id": "ezcad3",
+[
+  {
+    "id": "ezcad2",
+    "title": "EZCAD2",
+    "category": "software",
+    "manufacturer": "JCZ",
+    "pdf": "pdf/software/EZCAD Manual-EN.pdf",
+    "manual": "manuals/software/ezcad2.html",
+    "tags": ["EZCAD2", "JCZ", "レーザー", "マーキング"]
+  },
+  {
+    "id": "ezcad3",
     "title": "EZCAD3",
     "category": "software",
     "manufacturer": "JCZ",
@@ -15,7 +26,7 @@ git log --oneline -5    "id": "ezcad3",
     "manual": "manuals/laser/lark5a.html",
     "tags": ["UV", "355nm", "JPT"]
   },
-    {
+  {
     "id": "lightburn",
     "title": "LightBurn",
     "category": "software",
