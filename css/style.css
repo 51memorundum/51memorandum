@@ -31,3 +31,54 @@ hr{border:none;border-top:1px solid #55697e}
     margin-top: 0;
     color: #0b6aa2;
 }
+.manual-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.manual-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    padding: 11px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        opacity 0.15s ease;
+}
+
+.manual-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.manual-button:active {
+    transform: translateY(0);
+}
+
+.pdf-button {
+    background: #0b6aa2;
+    color: #ffffff;
+}
+
+.html-button {
+    background: #2f855a;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .manual-actions {
+        flex-direction: column;
+    }
+
+    .manual-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

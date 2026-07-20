@@ -1,19 +1,8 @@
-[
-  {
-    "id": "ezcad2",
-    "title": "EZCAD2",
-    "category": "software",
-    "manufacturer": "JCZ",
-    "pdf": "pdf/software/EZCAD Manual-EN.pdf",
-    "manual": "manuals/software/ezcad2.html",
-    "tags": ["EZCAD2", "JCZ", "レーザー", "マーキング"]
-  },
-  {
-    "id": "ezcad3",
+git log --oneline -5    "id": "ezcad3",
     "title": "EZCAD3",
     "category": "software",
     "manufacturer": "JCZ",
-    "pdf": "pdf/software/EZCAD3.pdf",
+    "pdf": "pdf/software/EZCAD3 manual-20211208.pdf",
     "manual": "manuals/software/ezcad3.html",
     "tags": ["EZCAD3", "JCZ"]
   },

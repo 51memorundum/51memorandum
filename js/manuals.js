@@ -22,15 +22,27 @@ function loadManuals() {
 
     <p>カテゴリ：${item.category}</p>
 
-    <p>
+    <div class="manual-actions">
 
-        <a href="${item.pdf}" target="_blank">📄 PDF</a>
+    <a
+        class="manual-button pdf-button"
+        href="${item.pdf}"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        📄 PDFを開く
+    </a>
 
-        &nbsp;&nbsp;
+    <a
+        class="manual-button html-button"
+        href="${item.manual}"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        🌐 自作マニュアル
+    </a>
 
-        <a href="${item.manual}" target="_blank">🌐 自作マニュアル</a>
-
-    </p>
+</div>
 
 </div>
                 `;
