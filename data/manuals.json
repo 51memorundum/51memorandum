@@ -2,7 +2,7 @@ git log --oneline -5    "id": "ezcad3",
     "title": "EZCAD3",
     "category": "software",
     "manufacturer": "JCZ",
-    "pdf": "pdf/software/EZCAD3 manual-20211208.pdf",
+    "pdf": "pdf/software/EZCAD3 Manual-EN.pdf",
     "manual": "manuals/software/ezcad3.html",
     "tags": ["EZCAD3", "JCZ"]
   },
