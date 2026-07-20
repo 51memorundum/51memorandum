@@ -15,13 +15,24 @@ function loadManuals() {
 
                 html += `
                     <div class="manual-card">
-                        <h3>${item.title}</h3>
-                        <p>メーカー：${item.manufacturer}</p>
-                        <p>カテゴリ：${item.category}</p>
-                        <button onclick="window.open('${item.pdf}','_blank')">
-                            PDFを開く
-                        </button>
-                    </div>
+
+    <h3>${item.title}</h3>
+
+    <p>メーカー：${item.manufacturer}</p>
+
+    <p>カテゴリ：${item.category}</p>
+
+    <p>
+
+        <a href="${item.pdf}" target="_blank">📄 PDF</a>
+
+        &nbsp;&nbsp;
+
+        <a href="${item.manual}" target="_blank">🌐 自作マニュアル</a>
+
+    </p>
+
+</div>
                 `;
 
             });
