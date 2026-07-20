@@ -6,17 +6,17 @@
     "manufacturer": "JCZ",
     "pdf": "pdf/software/EZCAD Manual-EN.pdf",
     "manual": "manuals/software/ezcad2.html",
-    "tags": ["EZCAD2", "JCZ", "レーザー", "マーキング"]
+    "tags": ["EZCAD2", "JCZ"]
   },
   {
-  "id": "ezcad3",
-  "title": "EZCAD3",
-  "category": "software",
-  "manufacturer": "JCZ",
-  "pdf": "pdf/software/EZCAD3 manual-20211208.pdf",
-  "manual": "manuals/software/ezcad3.html",
-  "tags": ["EZCAD3", "JCZ"]
-},
+    "id": "fb-b-h1",
+    "title": "BJJCZ FB-B-H1",
+    "category": "board",
+    "manufacturer": "JCZ",
+    "pdf": "pdf/board/FB-B-H1.pdf",
+    "manual": "manuals/board/fb-b-h1.html",
+    "tags": ["JCZ", "基板", "コントローラー"]
+  },
   {
     "id": "lark5a",
     "title": "JPT LARK5A",
@@ -24,15 +24,6 @@
     "manufacturer": "JPT",
     "pdf": "pdf/laser/LARK5A.pdf",
     "manual": "manuals/laser/lark5a.html",
-    "tags": ["UV", "355nm", "JPT"]
-  },
-  {
-    "id": "lightburn",
-    "title": "LightBurn",
-    "category": "software",
-    "manufacturer": "LightBurn Software",
-    "pdf": "pdf/software/LightBurn.pdf",
-    "manual": "manuals/software/lightburn.html",
-    "tags": ["LightBurn", "レーザー"]
+    "tags": ["JPT", "UV", "355nm"]
   }
 ]
