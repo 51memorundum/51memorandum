@@ -48,4 +48,15 @@
     "manual": "manuals/laser/lark5a.html",
     "tags": ["JPT", "UV", "355nm", "発振器"]
   }
+  ,
+  {
+    "id": "lark5a",
+    "title": "FIT 3/5w",
+    "category": "laser",
+    "manufacturer": "INNO",
+    "pdf_eng": "pdf/laser/Instruction-Manual-for-Nanosecond-Laser-250908.pdf",
+    "pdf_jpn": "pdf/laser/JPInstruction-Manual-for-Nanosecond-Laser-250908 JP.pdf",
+    "manual": "manuals/laser/lark5a.html",
+    "tags": ["JPT", "UV", "355nm", "発振器"]
+  }
 ]
