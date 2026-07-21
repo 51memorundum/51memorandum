@@ -18,7 +18,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 case "📖 マニュアル":
                     loadManuals();
                     break;
+case "🏭 JCZ":
+    content.innerHTML = `
+        <h2>🏭 JCZ</h2>
+        <p>JCZ関連資料を表示します。</p>
+    `;
+    break;
 
+case "⚡ RAYFINE":
+    content.innerHTML = `
+        <h2>⚡ RAYFINE</h2>
+        <p>RAYFINE関連資料を表示します。</p>
+    `;
+    break;
                 case "📝 作業手順":
                     content.innerHTML = `
                         <h2>📝 作業手順</h2>
