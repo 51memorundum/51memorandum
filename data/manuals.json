@@ -25,11 +25,11 @@
     "pdfs": [
     {
       "title": "PDFを開く（ENG）",
-      "file": "pdf/software/EZCAD Manual-EN.pdf"
+      "file": "pdf/software/EZCAD3 manual-20211208.pdf"
     },
     {
       "title": "PDFを開く（JPN）",
-      "file": "pdf/software/EZCAD Manual-JP.pdf"
+      "file": "pdf/software/JPEZCAD3 manual-20211208.pdf"
     }
   ],
     "manual": "manuals/software/ezcad3.html",
@@ -80,11 +80,11 @@
     "pdfs": [
     {
       "title": "PDFを開く（ENG）",
-      "file": "pdf/software/EZCAD Manual-EN.pdf"
+      "file": "pdf/software/Lark-355-5A User Manual V1.2EN 2021.pdf"
     },
     {
       "title": "PDFを開く（JPN）",
-      "file": "pdf/software/EZCAD Manual-JP.pdf"
+      "file": "pdf/software/Lark-355-5A User Manual V1.2EN 2021 JP.pdf"
     }
   ],
     "manual": "manuals/laser/lark5a.html",
@@ -99,11 +99,11 @@
      "pdfs": [
     {
       "title": "PDFを開く（ENG）",
-      "file": "pdf/software/EZCAD Manual-EN.pdf"
+      "file": "pdf/software/Operation Manual of GRACE X Series Laser 2019-08-3.pdf"
     },
     {
       "title": "PDFを開く（JPN）",
-      "file": "pdf/software/EZCAD Manual-JP.pdf"
+      "file": "pdf/software/JPOperation Manual of GRACE X Series Laser 2019-08.pdf"
     }
   ],
     "manual": "manuals/laser/gracex.html",
@@ -118,11 +118,11 @@
     "pdfs": [
     {
       "title": "PDFを開く（ENG）",
-      "file": "pdf/software/EZCAD Manual-EN.pdf"
+      "file": "pdf/software/Instruction-Manual-for-Nanosecond-Laser-250908.pdf"
     },
     {
       "title": "PDFを開く（JPN）",
-      "file": "pdf/software/EZCAD Manual-JP.pdf"
+      "file": "pdf/software/JPInstruction-Manual-for-Nanosecond-Laser-250908.pdf"
     }
   ],
     "manual": "manuals/laser/INNO.html",
