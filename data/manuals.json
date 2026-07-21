@@ -43,7 +43,7 @@
     "title": "JPT LARK3/5A",
     "category": "laser",
     "manufacturer": "JPT",
-    "pdf_eng": "pdf/laser/Lark-355-5A User Manual V1.2EN 2021",
+    "pdf_eng": "pdf/laser/Lark-355-5A User Manual V1.2EN 2021.pdf",
     "pdf_jpn": "pdf/laser/Lark-355-5A User Manual V1.2EN 2021 JP.pdf",
     "manual": "manuals/laser/lark5a.html",
     "tags": ["JPT", "UV", "355nm", "発振器"]
