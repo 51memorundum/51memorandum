@@ -71,7 +71,8 @@ function loadManuals() {
                                 <a
 class="manual-button pdf-button"
 href="${item.pdf_eng}"
-target="_blank">
+target="_blank"
+rel="noopener noreferrer">
 
 📄 PDF（ENG）
 
@@ -80,7 +81,8 @@ target="_blank">
 <a
 class="manual-button pdf-button"
 href="${item.pdf_jpn}"
-target="_blank">
+target="_blank"
+rel="noopener noreferrer">
 
 📄 PDF（JPN）
 
