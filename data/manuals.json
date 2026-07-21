@@ -56,7 +56,7 @@
     "manufacturer": "INNGU",
     "pdf_eng": "pdf/laser/Operation Manual of GRACE X Series Laser 2019-08-3.pdf",
     "pdf_jpn": "pdf/laser/JPOperation Manual of GRACE X Series Laser 2019-08.pdf",
-    "manual": "manuals/laser/lark5a.html",
+    "manual": "manuals/laser/gracex.html",
     "tags": ["INNGU", "UV", "355nm", "発振器"]
   }
 ]
