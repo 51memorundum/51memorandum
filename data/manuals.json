@@ -37,4 +37,15 @@
     "manual": "manuals/board/fb-b-h1.html",
     "tags": ["JCZ", "基板"]
   }
+  ,
+  {
+    "id": "lark5a",
+    "title": "JPT LARK5A",
+    "category": "laser",
+    "manufacturer": "JPT",
+    "pdf_eng": "pdf/laser/LARK5A-EN.pdf",
+    "pdf_jpn": "pdf/laser/LARK5A-JP.pdf",
+    "manual": "manuals/laser/lark5a.html",
+    "tags": ["JPT", "UV", "355nm", "発振器"]
+  }
 ]
