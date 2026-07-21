@@ -55,7 +55,7 @@
     "category": "laser",
     "manufacturer": "INNO",
     "pdf_eng": "pdf/laser/Instruction-Manual-for-Nanosecond-Laser-250908.pdf",
-    "pdf_jpn": "pdf/laser/JPInstruction-Manual-for-Nanosecond-Laser-250908 JP.pdf",
+    "pdf_jpn": "pdf/laser/JPInstruction-Manual-for-Nanosecond-Laser-250908.pdf",
     "manual": "manuals/laser/lark5a.html",
     "tags": ["JPT", "UV", "355nm", "発振器"]
   }
