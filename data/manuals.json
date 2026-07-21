@@ -4,7 +4,8 @@
     "title": "EZCAD2",
     "category": "software",
     "manufacturer": "JCZ",
-    "pdf": "pdf/software/EZCAD Manual-EN.pdf",
+    "pdf_eng": "pdf/software/EZCAD Manual-EN.pdf",
+    "pdf_jpn": "pdf/software/EZCAD3 manual-20211208.pdf",
     "manual": "manuals/software/ezcad2.html",
     "tags": ["EZCAD2", "JCZ"]
   },

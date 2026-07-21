@@ -69,13 +69,22 @@ function loadManuals() {
                             <div class="manual-actions">
 
                                 <a
-                                    class="manual-button pdf-button"
-                                    href="${item.pdf}"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    📄 PDFを開く
-                                </a>
+class="manual-button pdf-button"
+href="${item.pdf_eng}"
+target="_blank">
+
+📄 PDF（ENG）
+
+</a>
+
+<a
+class="manual-button pdf-button"
+href="${item.pdf_jpn}"
+target="_blank">
+
+📄 PDF（JPN）
+
+</a>
 
                                 <a
                                     class="manual-button html-button"
