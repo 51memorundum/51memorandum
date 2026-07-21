@@ -14,6 +14,7 @@ function loadManuals() {
             }
 
             return response.json();
+
         })
         .then(data => {
 
@@ -36,11 +37,11 @@ function loadManuals() {
 
             categories.forEach(category => {
 
-                const categoryItems = data.filter(item =>
+                const items = data.filter(item =>
                     item.category === category.id
                 );
 
-                if (categoryItems.length === 0) {
+                if (items.length === 0) {
                     return;
                 }
 
@@ -54,7 +55,7 @@ function loadManuals() {
                         <div class="manual-grid">
                 `;
 
-                categoryItems.forEach(item => {
+                items.forEach(item => {
 
                     html += `
                         <article class="manual-card">
@@ -62,8 +63,7 @@ function loadManuals() {
                             <h3>${item.title}</h3>
 
                             <p>
-                                メーカー：
-                                ${item.manufacturer}
+                                メーカー：${item.manufacturer}
                             </p>
 
                             <div class="manual-actions">
@@ -109,7 +109,6 @@ function loadManuals() {
 
             document.getElementById("content").innerHTML = `
                 <h2>マニュアルを読み込めませんでした。</h2>
-                <p>データまたはファイル構成を確認してください。</p>
             `;
 
         });
