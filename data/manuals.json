@@ -4,8 +4,16 @@
     "title": "EZCAD2",
     "category": "software",
     "manufacturer": "JCZ",
-    "pdf_eng": "pdf/software/EZCAD Manual-EN.pdf",
-    "pdf_jpn": "pdf/software/EZCAD Manual-JP.pdf",
+    "pdfs": [
+    {
+      "title": "PDFを開く（ENG）",
+      "file": "pdf/software/EZCAD Manual-EN.pdf"
+    },
+    {
+      "title": "PDFを開く（JPN）",
+      "file": "pdf/software/EZCAD Manual-JP.pdf"
+    }
+  ],
     "manual": "manuals/software/ezcad2.html",
     "tags": ["EZCAD2", "JCZ"]
   },
@@ -14,8 +22,16 @@
     "title": "EZCAD3",
     "category": "software",
     "manufacturer": "JCZ",
-    "pdf_eng": "pdf/software/EZCAD3 Manual-20211208.pdf",
-    "pdf_jpn": "pdf/software/JPEZCAD3 manual-20211208.pdf",
+    "pdfs": [
+    {
+      "title": "PDFを開く（ENG）",
+      "file": "pdf/software/EZCAD Manual-EN.pdf"
+    },
+    {
+      "title": "PDFを開く（JPN）",
+      "file": "pdf/software/EZCAD Manual-JP.pdf"
+    }
+  ],
     "manual": "manuals/software/ezcad3.html",
     "tags": ["EZCAD3", "JCZ"]
   },
@@ -24,7 +40,16 @@
     "title": "LightBurn",
     "category": "software",
     "manufacturer": "LightBurn Software",
-    "pdf": "pdf/software/LightBurn.pdf",
+    "pdfs": [
+    {
+      "title": "PDFを開く（ENG）",
+      "file": "pdf/software/EZCAD Manual-EN.pdf"
+    },
+    {
+      "title": "PDFを開く（JPN）",
+      "file": "pdf/software/EZCAD Manual-JP.pdf"
+    }
+  ],
     "manual": "manuals/software/lightburn.html",
     "tags": ["LightBurn", "レーザー"]
   },
@@ -33,7 +58,16 @@
     "title": "BJJCZ FB-B-H1",
     "category": "board",
     "manufacturer": "JCZ",
-    "pdf": "pdf/board/FB-B-H1.pdf",
+    "pdf": "pdf/board/FB-B-H1.pdf", "pdfs": [
+    {
+      "title": "PDFを開く（ENG）",
+      "file": "pdf/software/EZCAD Manual-EN.pdf"
+    },
+    {
+      "title": "PDFを開く（JPN）",
+      "file": "pdf/software/EZCAD Manual-JP.pdf"
+    }
+  ],
     "manual": "manuals/board/fb-b-h1.html",
     "tags": ["JCZ", "基板"]
   }
@@ -43,8 +77,16 @@
     "title": "JPT LARK3/5A",
     "category": "laser",
     "manufacturer": "JPT",
-    "pdf_eng": "pdf/laser/Lark-355-5A User Manual V1.2EN 2021.pdf",
-    "pdf_jpn": "pdf/laser/Lark-355-5A User Manual V1.2EN 2021 JP.pdf",
+    "pdfs": [
+    {
+      "title": "PDFを開く（ENG）",
+      "file": "pdf/software/EZCAD Manual-EN.pdf"
+    },
+    {
+      "title": "PDFを開く（JPN）",
+      "file": "pdf/software/EZCAD Manual-JP.pdf"
+    }
+  ],
     "manual": "manuals/laser/lark5a.html",
     "tags": ["JPT", "UV", "355nm", "発振器"]
   }
@@ -54,8 +96,16 @@
     "title": "Grace X 3/5w",
     "category": "laser",
     "manufacturer": "INNGU",
-    "pdf_eng": "pdf/laser/Operation Manual of GRACE X Series Laser 2019-08-3.pdf",
-    "pdf_jpn": "pdf/laser/JPOperation Manual of GRACE X Series Laser 2019-08.pdf",
+     "pdfs": [
+    {
+      "title": "PDFを開く（ENG）",
+      "file": "pdf/software/EZCAD Manual-EN.pdf"
+    },
+    {
+      "title": "PDFを開く（JPN）",
+      "file": "pdf/software/EZCAD Manual-JP.pdf"
+    }
+  ],
     "manual": "manuals/laser/gracex.html",
     "tags": ["INNGU", "UV", "355nm", "発振器"]
   }
@@ -65,9 +115,16 @@
     "title": "FIT 3/5w",
     "category": "laser",
     "manufacturer": "INNO LASER",
-    "pdf_eng": "pdf/laser/Instruction-Manual-for-Nanosecond-Laser-250908.pdf",
-    "pdf_jpn": "pdf/laser/JPInstruction-Manual-for-Nanosecond-Laser-250908.pdf",
-    "pdf_oth": "pdf/laser/FIT air-cooled 3W 5W 英文.pdf",
+    "pdfs": [
+    {
+      "title": "PDFを開く（ENG）",
+      "file": "pdf/software/EZCAD Manual-EN.pdf"
+    },
+    {
+      "title": "PDFを開く（JPN）",
+      "file": "pdf/software/EZCAD Manual-JP.pdf"
+    }
+  ],
     "manual": "manuals/laser/INNO.html",
     "tags": ["INNO LASER", "UV", "355nm", "発振器"]
   }

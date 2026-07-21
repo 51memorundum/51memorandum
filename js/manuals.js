@@ -1,7 +1,8 @@
 // ============================================
-// 51DKB Ver.3
+// 51DKB Ver.3.1
 // manuals.js
 // カテゴリー別・3列表示
+// PDFボタン自動生成
 // ============================================
 
 function loadManuals() {
@@ -57,6 +58,49 @@ function loadManuals() {
 
                 items.forEach(item => {
 
+                    let actionButtons = "";
+
+                    // PDFの数に合わせてボタンを自動生成
+                    if (Array.isArray(item.pdfs)) {
+
+                        item.pdfs.forEach(pdf => {
+
+                            // titleまたはfileが空の場合は表示しない
+                            if (!pdf.title || !pdf.file) {
+                                return;
+                            }
+
+                            actionButtons += `
+                                <a
+                                    class="manual-button pdf-button"
+                                    href="${pdf.file}"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    📄 ${pdf.title}
+                                </a>
+                            `;
+
+                        });
+
+                    }
+
+                    // 自作マニュアルが登録されている場合だけ表示
+                    if (item.manual) {
+
+                        actionButtons += `
+                            <a
+                                class="manual-button html-button"
+                                href="${item.manual}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                🌐 自作マニュアル
+                            </a>
+                        `;
+
+                    }
+
                     html += `
                         <article class="manual-card">
 
@@ -67,36 +111,7 @@ function loadManuals() {
                             </p>
 
                             <div class="manual-actions">
-
-                                <a
-class="manual-button pdf-button"
-href="${item.pdf_eng}"
-target="_blank"
-rel="noopener noreferrer">
-
-📄 PDF（ENG）
-
-</a>
-
-<a
-class="manual-button pdf-button"
-href="${item.pdf_jpn}"
-target="_blank"
-rel="noopener noreferrer">
-
-📄 PDF（JPN）
-
-</a>
-
-                                <a
-                                    class="manual-button html-button"
-                                    href="${item.manual}"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    🌐 自作マニュアル
-                                </a>
-
+                                ${actionButtons}
                             </div>
 
                         </article>
@@ -120,6 +135,7 @@ rel="noopener noreferrer">
 
             document.getElementById("content").innerHTML = `
                 <h2>マニュアルを読み込めませんでした。</h2>
+                <p>manuals.jsonの内容を確認してください。</p>
             `;
 
         });
