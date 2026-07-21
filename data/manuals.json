@@ -58,14 +58,14 @@
     "title": "BJJCZ FB-B-H1",
     "category": "board",
     "manufacturer": "JCZ",
-    "pdf": "pdf/board/FB-B-H1.pdf", "pdfs": [
+    "pdfs": [
     {
       "title": "PDFを開く（ENG）",
-      "file": "pdf/software/EZCAD Manual-EN.pdf"
+      "file": "pdf/software/BJJCZ FB-B-H1.pdf"
     },
     {
       "title": "PDFを開く（JPN）",
-      "file": "pdf/software/EZCAD Manual-JP.pdf"
+      "file": "pdf/software/BJJCZ FB-B-H1JP.pdf"
     }
   ],
     "manual": "manuals/board/fb-b-h1.html",
