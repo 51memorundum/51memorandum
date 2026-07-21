@@ -17,27 +17,39 @@ hr{border:none;border-top:1px solid #55697e}
    マニュアル一覧
 ============================================ */
 
+/* ============================================
+   カテゴリー別マニュアル一覧
+============================================ */
+
+.manual-section {
+    margin-top: 32px;
+}
+
+.manual-category-title {
+    margin: 0 0 16px;
+    color: #333;
+}
+
 .manual-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
     width: 100%;
-    margin-top: 20px;
 }
 
 .manual-card {
-    background: #fff;
-    border-radius: 12px;
-    padding: 18px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
     display: flex;
     flex-direction: column;
-    margin: 0;
     min-width: 0;
+    margin: 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
 }
 
 .manual-card h3 {
-    margin-top: 0;
+    margin: 0 0 18px;
     color: #0b6aa2;
 }
 
@@ -46,7 +58,7 @@ hr{border:none;border-top:1px solid #55697e}
     flex-direction: column;
     gap: 10px;
     margin-top: auto;
-    padding-top: 15px;
+    padding-top: 18px;
 }
 
 .manual-button {
@@ -59,18 +71,6 @@ hr{border:none;border-top:1px solid #55697e}
     border-radius: 8px;
     font-weight: 700;
     text-decoration: none;
-    transition:
-        transform .15s ease,
-        box-shadow .15s ease;
-}
-
-.manual-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 12px rgba(0, 0, 0, .16);
-}
-
-.manual-button:active {
-    transform: translateY(0);
 }
 
 .pdf-button {
@@ -83,14 +83,12 @@ hr{border:none;border-top:1px solid #55697e}
     color: #fff;
 }
 
-/* タブレット */
 @media (max-width: 1100px) {
     .manual-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-/* スマートフォン */
 @media (max-width: 700px) {
     .manual-grid {
         grid-template-columns: 1fr;
