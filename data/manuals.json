@@ -5,7 +5,7 @@
     "category": "software",
     "manufacturer": "JCZ",
     "pdf_eng": "pdf/software/EZCAD Manual-EN.pdf",
-    "pdf_jpn": "pdf/software/EZCAD3 manual-20211208.pdf",
+    "pdf_jpn": "pdf/software/EZCAD Manual-JP.pdf",
     "manual": "manuals/software/ezcad2.html",
     "tags": ["EZCAD2", "JCZ"]
   },
@@ -14,7 +14,8 @@
     "title": "EZCAD3",
     "category": "software",
     "manufacturer": "JCZ",
-    "pdf": "pdf/software/EZCAD3 manual-20211208.pdf",
+    "pdf_eng": "pdf/software/EZCAD3 Manual-20211208.pdf",
+    "pdf_jpn": "pdf/software/JPEZCAD3 manual-20211208.pdf",
     "manual": "manuals/software/ezcad3.html",
     "tags": ["EZCAD3", "JCZ"]
   },
