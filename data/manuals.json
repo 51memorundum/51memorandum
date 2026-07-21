@@ -59,4 +59,15 @@
     "manual": "manuals/laser/gracex.html",
     "tags": ["INNGU", "UV", "355nm", "発振器"]
   }
+  ,
+  {
+    "id": "INNO",
+    "title": "FIT 3/5w",
+    "category": "laser",
+    "manufacturer": "INNO LASER",
+    "pdf_eng": "pdf/laser/Instruction-Manual-for-Nanosecond-Laser-250908.pdf",
+    "pdf_jpn": "pdf/laser/JPInstruction-Manual-for-Nanosecond-Laser-250908.pdf",
+    "manual": "manuals/laser/INNO.html",
+    "tags": ["INNO LASER", "UV", "355nm", "発振器"]
+  }
 ]
