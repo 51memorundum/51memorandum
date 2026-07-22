@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "epdm-cut-001",
+    "title": "EPDM ゴム切断",
+    "category": "resin",
+    "laser": "UV",
+    "material": "EPDM ゴム",
+    "process": "切断",
+    "data_name": "往復60回直線.ezd",
+    "youtube": "https://youtu.be/fN8OMTy5Lgc",
+    "comment": "往復60回で切断"
+  },
+  {
+    "id": "sus-black-001",
+    "title": "ステンレス黒色加工",
+    "category": "metal",
+    "laser": "Fiber",
+    "material": "SUS304",
+    "process": "黒色マーキング",
+    "data_name": "SUS黒色.ezd",
+    "youtube": "",
+    "comment": "サンプルデータ"
+  },
+  {
+    "id": "plywood-cut-001",
+    "title": "合板切断",
+    "category": "wood",
+    "laser": "CO2",
+    "material": "合板",
+    "process": "切断",
+    "data_name": "合板切断.lbrn2",
+    "youtube": "",
+    "comment": "サンプルデータ"
+  }
+]
