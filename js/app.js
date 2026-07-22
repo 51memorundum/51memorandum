@@ -46,11 +46,8 @@ case "⚡ RAYFINE":
                     break;
 
                 case "🧪 テスト加工":
-                    content.innerHTML = `
-                        <h2>🧪 テスト加工</h2>
-                        <p>ここに加工条件を表示します。</p>
-                    `;
-                    break;
+    loadTests();
+    break;
 
                 default:
                     content.innerHTML = `

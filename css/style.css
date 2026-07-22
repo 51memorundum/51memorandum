@@ -187,3 +187,136 @@ hr {
         grid-template-columns: 1fr;
     }
 }
+/* ============================================
+   テスト加工
+============================================ */
+
+.test-category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0 28px;
+}
+
+.test-category-button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    background: #dfe7ef;
+    color: #234b72;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+        background .15s ease,
+        color .15s ease,
+        transform .15s ease;
+}
+
+.test-category-button:hover {
+    transform: translateY(-1px);
+    background: #c8d9e8;
+}
+
+.test-category-button.active {
+    background: #2a7de1;
+    color: #fff;
+}
+
+.test-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.test-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+}
+
+.test-card h3 {
+    margin: 0 0 18px;
+    color: #0b6aa2;
+}
+
+.test-details {
+    margin: 0;
+}
+
+.test-details div {
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e3e7eb;
+}
+
+.test-details dt {
+    font-weight: 700;
+    color: #52606d;
+}
+
+.test-details dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.test-comment {
+    margin: 16px 0 0;
+    padding: 12px;
+    border-radius: 8px;
+    background: #f4f6f9;
+}
+
+.test-actions {
+    margin-top: auto;
+    padding-top: 18px;
+}
+
+.test-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.youtube-button {
+    background: #d93025;
+    color: #fff;
+}
+
+.test-empty {
+    grid-column: 1 / -1;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+}
+
+@media (max-width: 1100px) {
+    .test-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    .test-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .test-category-button {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .test-details div {
+        grid-template-columns: 90px minmax(0, 1fr);
+    }
+}
