@@ -320,3 +320,12 @@ hr {
         grid-template-columns: 90px minmax(0, 1fr);
     }
 }
+.test-data-link {
+    color: #0b6aa2;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.test-data-link:hover {
+    text-decoration: underline;
+}

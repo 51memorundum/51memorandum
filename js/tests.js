@@ -155,9 +155,23 @@ function renderTests(selectedCategory) {
                         </div>
 
                         <div>
-                            <dt>加工データ</dt>
-                            <dd>${item.data_name || "-"}</dd>
-                        </div>
+    <dt>加工データ</dt>
+    <dd>
+        ${
+            item.data_file
+                ? `
+                    <a
+                        class="test-data-link"
+                        href="${item.data_file}"
+                        download
+                    >
+                        📥 ${item.data_name || "加工データをダウンロード"}
+                    </a>
+                `
+                : item.data_name || "-"
+        }
+    </dd>
+</div>
 
                     </dl>
 
