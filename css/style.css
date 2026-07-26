@@ -329,3 +329,64 @@ hr {
 .test-data-link:hover {
     text-decoration: underline;
 }
+/* ============================================
+   役立つ動画リンク集
+============================================ */
+
+.video-category {
+    margin-top: 30px;
+}
+
+.video-category > h3 {
+    margin: 0 0 16px;
+    padding: 12px 16px;
+    border-left: 6px solid #2a7de1;
+    border-radius: 8px;
+    background: #eaf2fb;
+    color: #234b72;
+    font-size: 24px;
+}
+
+.video-group {
+    margin-bottom: 22px;
+    padding: 22px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+}
+
+.video-group h4 {
+    margin: 0 0 16px;
+    color: #333;
+    font-size: 20px;
+}
+
+.video-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.video-page-link {
+    display: block;
+    padding: 13px 16px;
+    border-left: 5px solid #d93025;
+    border-radius: 7px;
+    background: #f7f8fa;
+    color: #234b72;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        background .15s ease,
+        transform .15s ease;
+}
+
+.video-page-link:hover {
+    background: #edf4fb;
+    transform: translateX(3px);
+}
+
+.video-empty {
+    margin: 0;
+    color: #777;
+}

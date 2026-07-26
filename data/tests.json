@@ -10,6 +10,17 @@
     "data_file": "pdf/ezd/往復60回直線.ezd",
     "youtube": "https://youtu.be/fN8OMTy5Lgc",
     "comment": "往復60回で切断"
+  }{
+    "id": "epdm-cut-001",
+    "title": "EPDM ゴム切断",
+    "category": "resin",
+    "laser": "UV",
+    "material": "EPDM ゴム",
+    "process": "切断",
+    "data_name": "往復60回直線.ezd",
+    "data_file": "pdf/ezd/往復60回直線.ezd",
+    "youtube": "https://youtu.be/fN8OMTy5Lgc",
+    "comment": "往復60回で切断"
   },
   {
     "id": "sus-black-001",
