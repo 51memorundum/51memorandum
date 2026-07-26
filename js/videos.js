@@ -1,69 +1,83 @@
 // ============================================
-// 51DKB Ver.3
+// 51DKB Ver.4
 // videos.js
-// 役立つ動画リンク集
+// videos.jsonから動画一覧を表示
 // ============================================
 
 function loadVideos() {
 
-    const content = document.getElementById("content");
+    fetch("data/videos.json")
+        .then(response => {
 
-    content.innerHTML = `
-        <h2>🎥 役立つ動画リンク集</h2>
+            if (!response.ok) {
+                throw new Error(`HTTP Error : ${response.status}`);
+            }
 
-        <section class="video-category">
+            return response.json();
 
-            <h3>EZCAD2</h3>
+        })
 
-            <div class="video-group">
+        .then(data => {
 
-                <h4>
-    <a
-        class="video-title-link"
-        href="movie/EZD2/EZCAD2 Port usage.mp4"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        EZCAD2 Port usage
-    </a>
-</h4>
+            const categories = [...new Set(data.map(item => item.category))];
 
-                <div class="video-link-list">
+            let html = `
+                <h2>🎥 役立つ動画リンク集</h2>
+            `;
 
-                    <a
-                        class="video-page-link"
-                        href="movie/EZD2/AutoZ　段差の加工方法.mp4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        ▶ AutoZ　段差の加工方法
-                    </a>
+            categories.forEach(category => {
 
-                </div>
+                html += `
+                    <section class="video-category">
 
-            </div>
+                        <h3>${category}</h3>
 
-        </section>
+                        <div class="video-list">
+                `;
 
-        <section class="video-category">
+                data
+                    .filter(item => item.category === category)
+                    .forEach(item => {
 
-            <h3>EZCAD3</h3>
+                        html += `
 
-            <div class="video-group">
+                            <a
+                                class="video-page-link"
+                                href="${item.movie}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                ▶ ${item.title}
+                            </a>
 
-                <h4>EZCAD3 操作方法</h4>
+                        `;
 
-                <div class="video-link-list">
+                    });
 
-                    <p class="video-empty">
-                        動画は準備中です。
-                    </p>
+                html += `
+                        </div>
 
-                </div>
+                    </section>
+                `;
 
-            </div>
+            });
 
-        </section>
-    `;
+            document.getElementById("content").innerHTML = html;
+
+        })
+
+        .catch(error => {
+
+            console.error(error);
+
+            document.getElementById("content").innerHTML = `
+
+                <h2>動画一覧を読み込めませんでした。</h2>
+
+                <p>${error.message}</p>
+
+            `;
+
+        });
 
 }
