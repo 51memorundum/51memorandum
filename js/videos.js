@@ -17,7 +17,16 @@ function loadVideos() {
 
             <div class="video-group">
 
-                <h4>EZCAD2 Port usage</h4>
+                <h4>
+    <a
+        class="video-title-link"
+        href="movie/EZD2/EZCAD2 Port usage.mp4"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        EZCAD2 Port usage
+    </a>
+</h4>
 
                 <div class="video-link-list">
 
