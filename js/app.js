@@ -19,16 +19,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     loadManuals();
                     break;
 
-                case "🏭 JCZ":
+                case "🏭 JCZ関連":
                     content.innerHTML = `
-                        <h2>🏭 JCZ</h2>
+                        <h2>🏭 JCZ関連</h2>
                         <p>JCZ関連資料を表示します。</p>
                     `;
                     break;
 
-                case "⚡ RAYFINE":
+                case "⚡ RAYFINE関連":
                     content.innerHTML = `
-                        <h2>⚡ RAYFINE</h2>
+                        <h2>⚡ RAYFINE関連</h2>
                         <p>RAYFINE関連資料を表示します。</p>
                     `;
                     break;
@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     break;
 
                 case "⭐ youtube Link":
-    loadVideos();
-    break;
+                    loadVideos();
+                    break;
 
                 case "🆕 更新履歴":
                     content.innerHTML = `
