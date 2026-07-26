@@ -55,11 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     loadVideos();
                     break;
 
-                case "🆕 更新履歴":
-                    content.innerHTML = `
-                        <h2>🆕 更新履歴</h2>
-                        <p>ここに更新履歴を表示します。</p>
-                    `;
+               case "🆕 更新履歴":
+    loadUpdates();
+    break;
                     break;
 
                 case "⚙ 設定":

@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-07-26",
+    "category": "機能追加",
+    "title": "動画リンク集を追加",
+    "description": "EZCAD2の役立つ動画リンクを追加しました。"
+  },
+  {
+    "date": "2026-07-25",
+    "category": "テスト加工",
+    "title": "EPDMゴム切断データを追加",
+    "description": "UVレーザーによるEPDMゴム切断の動画とEZCADデータを追加しました。"
+  },
+  {
+    "date": "2026-07-24",
+    "category": "マニュアル",
+    "title": "INNO FIT資料を追加",
+    "description": "英語版、日本語版、仕様書のPDFを追加しました。"
+  }
+]

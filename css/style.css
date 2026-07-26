@@ -453,3 +453,59 @@ hr {
     transform:translateX(4px);
 
 }
+/* ============================================
+   更新履歴
+============================================ */
+
+.update-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.update-card {
+    padding: 20px 24px;
+    background: #fff;
+    border-left: 6px solid #2a7de1;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+}
+
+.update-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 14px;
+}
+
+.update-header time {
+    color: #52606d;
+    font-weight: 700;
+}
+
+.update-category {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 14px;
+    background: #eaf2fb;
+    color: #234b72;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.update-card h3 {
+    margin: 12px 0 6px;
+    color: #0b6aa2;
+}
+
+.update-card p {
+    margin: 0;
+}
+
+.update-empty {
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
