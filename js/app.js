@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     break;
 
                 case "⭐ youtube Link":
-                    loadVideos();
-                    break;
+    loadVideos();
+    break;
 
                 case "🆕 更新履歴":
                     content.innerHTML = `
