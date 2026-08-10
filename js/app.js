@@ -27,24 +27,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <p>JCZ関連の技術情報・設定方法をまとめます。</p>
 
-        <ul class="jcz-menu">
+        <div class="jcz-item">
 
-            <li>
-                <a href="jcz/multifunction.html">
-                    マルチファンクション
-                </a>
-                <p>1台のPCで複数のレーザーを操作する。このファンクションはEzcad3が必須。<br>
-また、基板もDLCがカードが必要になる。
-</p>
-            </li>
+            <a
+                class="jcz-title"
+                href="jcz/multifunction.html"
+            >
+                マルチヘッドファンクション　Multi-Head Function
+            </a>
 
-            <li>
-                <a href="jcz/autoz.html">
-                    AutoZでのZ調整加工
-                </a>
-            </li>
+            <p>
+                1台のPCで複数のレーザーを操作する。<br>
+                このファンクションはEZCAD3が必須。<br>
+                また、基板もDLCカードが必要になる。
+            </p>
 
-        </ul>
+        </div>
+
+        <div class="jcz-item">
+
+            <a
+                class="jcz-title"
+                href="jcz/autoz.html"
+            >
+                AutoZでのZ調整加工
+            </a>
+
+            <p>
+                AutoZを使用してZ軸の高さを自動調整しながら加工する方法。
+            </p>
+
+        </div>
     `;
     break;
 
