@@ -19,12 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     loadManuals();
                     break;
 
-                case "🏭 JCZ関連":
-                    content.innerHTML = `
-                        <h2>🏭 JCZ関連</h2>
-                        <p>JCZ関連資料を表示します。</p>
-                    `;
-                    break;
+                
 
                 case "🏭 JCZ関連":
     content.innerHTML = `
