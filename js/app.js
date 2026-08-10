@@ -26,12 +26,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     `;
                     break;
 
-                case "⚡ RAYFINE関連":
-                    content.innerHTML = `
-                        <h2>⚡ RAYFINE関連</h2>
-                        <p>RAYFINE関連資料を表示します。</p>
-                    `;
-                    break;
+                case "🏭 JCZ関連":
+    content.innerHTML = `
+        <h2>🏭 JCZ関連</h2>
+
+        <p>JCZ関連の技術情報・設定方法をまとめています。</p>
+
+        <div class="card">
+
+            <h3>メニュー</h3>
+
+            <ul>
+                <li>マルチファンクション</li>
+                <li>AutoZでのZ調整加工</li>
+            </ul>
+
+        </div>
+    `;
+    break;
 
                 case "📝 作業手順":
                     content.innerHTML = `
