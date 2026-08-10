@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 class="jcz-title"
                 href="jcz/multifunction.html"
             >
-                マルチヘッドファンクション Multi-Head Function 
+                マルチヘッドファンクション Multi-ead Function 
             </a>
-(例 日本ニュークローム)<br>
+ <p>(例 日本ニュークローム)<br> </p>
             <p>
                 1台のPCで複数のレーザーを操作する。<br>
                 このファンクションはEZCAD3が必須。<br>
