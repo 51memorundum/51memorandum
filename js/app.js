@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 class="jcz-title"
                 href="jcz/multifunction.html"
             >
-                マルチヘッドファンクション　Multi-Head Function
+                マルチヘッドファンクション Multi-Head Function (例　日本ニュークローム)
             </a>
 
             <p>
