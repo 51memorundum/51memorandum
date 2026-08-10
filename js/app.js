@@ -30,13 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
     content.innerHTML = `
         <h2>🏭 JCZ関連</h2>
 
-        <p>JCZ関連の技術情報・設定方法をまとめています。</p>
+        <p>JCZ関連の技術情報・設定方法をまとめます。</p>
 
         <div class="card">
 
-            <h3>メニュー</h3>
-
-            <ul>
+                        <ul>
                 <li>マルチファンクション</li>
                 <li>AutoZでのZ調整加工</li>
             </ul>
