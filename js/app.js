@@ -33,6 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="jcz/multifunction.html">
                     マルチファンクション
                 </a>
+                <p>1台のPCで複数のレーザーを操作する。このファンクションはEzcad3が必須。<br>
+また、基板もDLCがカードが必要になる。
+</p>
             </li>
 
             <li>
