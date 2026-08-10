@@ -21,20 +21,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 
 
-                case "🏭 JCZ関連":
+               case "🏭 JCZ関連":
     content.innerHTML = `
         <h2>🏭 JCZ関連</h2>
 
         <p>JCZ関連の技術情報・設定方法をまとめます。</p>
 
-       
+        <ul class="jcz-menu">
 
-                        <ul>
-                <li>マルチファンクション</li>
-                <li>AutoZでのZ調整加工</li>
-            
+            <li>
+                <a href="jcz/multifunction.html">
+                    マルチファンクション
+                </a>
+            </li>
 
-        </div>
+            <li>
+                <a href="jcz/autoz.html">
+                    AutoZでのZ調整加工
+                </a>
+            </li>
+
+        </ul>
     `;
     break;
 
