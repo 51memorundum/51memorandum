@@ -27,12 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <p>JCZ関連の技術情報・設定方法をまとめます。</p>
 
-        <div class="card">
+       
 
                         <ul>
                 <li>マルチファンクション</li>
                 <li>AutoZでのZ調整加工</li>
-            </ul>
+            
 
         </div>
     `;
