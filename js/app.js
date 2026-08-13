@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     break;
                     
 
-                case "⚙ 設定・調整":
+               case "⚙ 設定・調整":
     content.innerHTML = `
         <h2>⚙ 設定・調整</h2>
 
