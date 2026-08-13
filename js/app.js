@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <a
                 class="jcz-title"
-                href="jcz/multifunction.html"
+                href="html/multifunction.html"
             >
                 マルチヘッドファンクション Multi-ead Function 
-            </a>
- <p>(例 日本ニュークローム)<br> </p>
+            </a><br>
+ (例 日本ニュークローム)<br> 
             <p>
                 1台のPCで複数のレーザーを操作する。<br>
                 このファンクションはEZCAD3が必須。<br>
@@ -51,11 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 href="jcz/autoz.html"
             >
                 AutoZでのZ調整加工
-            </a>
-
-            <p>
+            </a><br>
+           
                 AutoZを使用してZ軸の高さを自動調整しながら加工する方法。
-            </p>
+            
 
         </div>
     `;
@@ -90,8 +89,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 case "⚙ 設定":
                     content.innerHTML = `
-                        <h2>⚙ 設定</h2>
-                        <p>設定画面は準備中です。</p>
+                        <h2>⚙ 設定・調整</h2>
+                        <b><big>Ezcad2のField設定</big></b></br>
+                         <a
+            href="pdf/ezd/lenscalibraion.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            レンズのカリブレーション方法
+        </a>
                     `;
                     break;
 

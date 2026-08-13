@@ -46,41 +46,15 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         "⚙ 設定": {
-            title: "設定",
+            title: "設定・調整",
             text: "今後追加予定です。"
         }
 
     };
 
-    menuButtons.forEach(function (button) {
 
-        button.addEventListener("click", function () {
 
-            const key = button.textContent.trim();
 
-            if (!pages[key]) return;
-
-            content.innerHTML = `
-
-                <h2>${pages[key].title}</h2>
-
-                <div class="card">
-
-                    <p>${pages[key].text}</p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3>準備中</h3>
-
-                    <p>
-
-                    このページは今後データベースから自動表示されます。
-
-                    </p>
-
-                </div>
 
             `;
 
