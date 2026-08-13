@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     `;
                     break;
 
-                case "🧪 テスト加工":
+                case "🧪 テスト加工（動画）":
                     loadTests();
                     break;
 
