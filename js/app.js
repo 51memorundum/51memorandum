@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
                case "🆕 更新履歴":
     loadUpdates();
     break;
-                    break;
+                    
 
                 case "⚙ 設定・調整":
     content.innerHTML = `
