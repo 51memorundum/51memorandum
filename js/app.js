@@ -87,19 +87,23 @@ document.addEventListener("DOMContentLoaded", () => {
     break;
                     break;
 
-                case "⚙ 設定":
-                    content.innerHTML = `
-                        <h2>⚙ 設定・調整</h2>
-                        <b><big>Ezcad2のField設定</big></b></br>
-                         <a
-            href="pdf/ezd/lenscalibraion.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            レンズのカリブレーション方法
-        </a>
-                    `;
-                    break;
+                case "⚙ 設定・調整":
+    content.innerHTML = `
+        <h2>⚙ 設定・調整</h2>
+
+        <h3>Ezcad2のField設定</h3>
+
+        <p>
+            <a
+                href="pdf/ezd/lenscalibraion.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                レンズのカリブレーション方法
+            </a>
+        </p>
+    `;
+    break;
 
                 default:
                     content.innerHTML = `
