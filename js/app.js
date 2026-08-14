@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     loadTests();
                     break;
 
-                case "⭐ youtube Link":
+                case "⭐ その他動画":
                     loadVideos();
                     break;
 
