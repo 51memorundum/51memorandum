@@ -102,9 +102,21 @@ document.addEventListener("DOMContentLoaded", () => {
                 レンズのカリブレーション方法
             </a>
         <h3>ダウンロード</h3>
-        Ezcad2（オフライン）<br>
-        ドライバー<br>
-        
+        <a
+                href="Downloads/ezcad2.14.11 Offline Nov2023.zip"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Ezcad2(オフライン版)
+            </a><br>
+        <a
+                href="Downloads/ezcad2.14.11 Offline Nov2023.zip"
+                target="_blank"LMCV4 driver signed
+                rel="noopener noreferrer"
+            >
+                ドライバー(LMCV4)
+            </a><br>
+
     `;
     break;
 
