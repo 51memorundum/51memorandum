@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
             >
                 マルチヘッドファンクション Multi-ead Function 
             </a><br>
- (例 日本ニュークローム)<br> 
+ (例 クローム)<br> 
             <p>
                 1台のPCで複数のレーザーを操作する。<br>
                 このファンクションはEZCAD3が必須。<br>
