@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
             >
                 レンズのカリブレーション方法
             </a>
-        
+        <h3>ダウンロード</h3>
     `;
     break;
 
