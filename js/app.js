@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     
 
                case "⚙ 設定・調整":
-    content.innerHTML = `
+    const newLocal = content.innerHTML = `
         <h2>⚙ 設定・調整</h2>
 
         <h3>Ezcad2のField設定</h3>
@@ -102,6 +102,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 レンズのカリブレーション方法
             </a>
         <h3>ダウンロード</h3>
+        Ezcad2（オフライン）<br>
+        ドライバー<br>
+        
     `;
     break;
 
