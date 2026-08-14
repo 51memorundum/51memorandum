@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <a
                 class="jcz-title"
-                href="html/multifunction.html"
+                href="html/multiheadfunction.html"
             >
                 マルチヘッドファンクション Multi-ead Function 
             </a><br>
