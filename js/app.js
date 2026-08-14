@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <h3>Ezcad2のField設定</h3>
 
-        <p>
+       
             <a
                 href="pdf/ezd/lenscalibraion.pdf"
                 target="_blank"
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
             >
                 レンズのカリブレーション方法
             </a>
-        </p>
+        
     `;
     break;
 
